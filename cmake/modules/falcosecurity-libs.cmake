@@ -20,8 +20,8 @@ file(MAKE_DIRECTORY ${FALCOSECURITY_LIBS_CMAKE_WORKING_DIR})
 # default below In case you want to test against another falcosecurity/libs version just pass the variable - ie., `cmake
 # -DFALCOSECURITY_LIBS_VERSION=dev ..`
 if(NOT FALCOSECURITY_LIBS_VERSION)
-  set(FALCOSECURITY_LIBS_VERSION "13ec67ebd23417273275296813066e07cb85bc91")
-  set(FALCOSECURITY_LIBS_CHECKSUM "SHA256=c2cc1c17af98cef1fa958841da3cfc480774190b5cebc503faf4184cf2b2abfa")
+  set(FALCOSECURITY_LIBS_VERSION "new/k8s-node-filtering")
+  set(FALCOSECURITY_LIBS_CHECKSUM "SHA256=1c758d0d4e076639b0b8e495da4d33f619e62c1ea5671d2ad77427f6c909021f")
 endif()
 
 # cd /path/to/build && cmake /path/to/source
